@@ -1,4 +1,4 @@
-﻿/** 
+/** 
  * JDownloader2 EventScript - JDUsaMenu 右クリックメニュー集
  * 
  * 【概要】
