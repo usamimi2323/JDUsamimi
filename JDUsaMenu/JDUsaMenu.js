@@ -3373,13 +3373,13 @@ App.moveToNewPackageWithFileName = function(event_name, selection)
 	}
 	else if (selection.isPackageContext())
 	{
+		new_p = selection.contextPackage;
 		new_name = new_p.getName();
 		dlpath = new_p.downloadFolder;
 		context_package_UUID = new_p.UUID;
-		
-		new_p = selection.contextPackage;
 	}
 	if (new_name == '') return;
+
 
 	// パッケージ新規作成後の移動先の予備を取得
 	var all_p = this.CTX.getAllPackages();
