@@ -16,11 +16,9 @@
 	var regexp_is_url_ok = /^https?:\/\//;
 	var regexp_get_SOURCE_URL = new RegExp('#(?:.*&)?'+SOURCE_URL_KEYNAME_IN_URL+'=([^&]*)(?:&.*)?$','i');
 	
-	// check
-	if (link.getProperty(prop_name1))
-		return;
 	if (state=='BEFORE')
 	{
+		if (link.getProperty(prop_name1)) return;
 		link.setProperty(prop_name1, link.name);
 		
 		link.getSourceUrls() && link.getSourceUrls().some(function(u)
@@ -37,6 +35,7 @@
 	}
 	else if (state == 'AFTER')
 	{
+		if (link.getProperty(prop_name2)) return;
 		link.setProperty(prop_name2, link.name);
 	}
 })();
