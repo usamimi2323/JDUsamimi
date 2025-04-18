@@ -2705,7 +2705,7 @@ App.renameToProperty = function(eventname, selection, prop_name)
 	//
 	// リネーム
 	//
-	items.links.forEach(function (x)
+	items.forEach(function (x)
 	{
 		if (x.renameTo && x.target.getName() != x.renameTo)
 			x.target.setName(x.renameTo);
