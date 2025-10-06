@@ -10,8 +10,8 @@ JDownloader EventScript, Rules, etc...
 
 ### その他のスクリプト
 <ul>
-  <li><a href="https://gist.github.com/usamimi2323/81596f9903b9e9d4f59e03294de80d1d">一時停止時に、スキップや失敗したリンクのダウンロードを再開する</a></li>
-  <li><a href="https://gist.github.com/usamimi2323/c00335a22140c9b042b0a15fcec47a1b">キャプチャの失敗回数が指定回数に達したら、ダウンロードを一時停止する</a></li>
+  <li><a href="https://gist.github.com/usamimi2323/81596f9903b9e9d4f59e03294de80d1d">一時停止で全リジューム - 一時停止時に、スキップや失敗したリンクのダウンロードを再開する</a></li>
+  <li><a href="https://gist.github.com/usamimi2323/c00335a22140c9b042b0a15fcec47a1b">リトライ抑制 - キャプチャの失敗回数が指定回数に達したら、ダウンロードを一時停止する</a></li>
 </ul>
 <hr>
 
